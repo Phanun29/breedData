@@ -1,0 +1,47 @@
+.wrapper {
+  /* height: 400px; */
+}
+
+.wrappage > #add_user > form {
+  height: 400px;
+}
+.wrappage > a {
+  margin: 20px 50px;
+  width: 80px;
+}
+/* .wrappage > div > form #table_add_user {
+    width: 100%;
+    border: none;
+}
+.wrappage > div > form #table_add_user tr {
+    border: none;
+        font-family: "Mona Sans", "Mona Sans Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+} */
+
+.wrappage > div > #image_profile {
+  width: 30%;
+  margin-top: 30px;
+  /* height: 300px; */
+  /* background-color: red;  */
+  overflow: hidden;
+}
+.wrappage > div > #image_profile img {
+  width: 200px;
+  /* margin: 20px; */
+  border-radius:10px ;
+}
+.wrappage > div > form #table_add_user tr td  {
+
+
+
+}
+.wrappage > div > form #table_add_user tr td {
+  border: none;
+  padding: 0 auto   ;
+}
+.wrappage > div > form > #table_add_user tr > td > input {
+  width: 100%;
+}
+.wrappage > div > form > #table_add_user tr :first-child {
+  width: 50%;
+}

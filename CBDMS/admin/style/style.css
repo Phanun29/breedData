@@ -1,0 +1,933 @@
+* {
+  /* margin: 0;
+    margin: 0;
+    box-sizing: border-box; */
+}
+/*---------------------------------------------- header---------------------------- */
+#paginationSection {
+  /* display: none; */
+}
+#header_bg {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(3, 183, 3);
+}
+header {
+  /* background-color: rgb(3, 183, 3); */
+  width: 1080px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header > .header_l > a img {
+  width: 100px;
+  margin: 25px 0px 25px 25px;
+}
+header > .header_l > div {
+  float: right;
+  /* width: 70%; */
+  height: 100%;
+}
+header > .header_l > div h2 span {
+  font-size: 13px;
+  font-weight: normal;
+}
+header > .header_l {
+  width: 50%;
+  height: 100%;
+  font-family: "Khmer OS Battambang", sans-serif;
+}
+header > .header_r {
+  width: 50%;
+  height: 100%;
+}
+header > .header_r > p {
+  font-size: 29px;
+  text-align: center;
+  margin: 60px 0;
+  color: white;
+}
+/*---------------------------------------------- navigation---------------------------- */
+.navigation {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(198, 236, 203);
+  overflow: hidden;
+}
+.navigation > .nav_bg {
+  background-color: rgb(198, 236, 203);
+  width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation > .nav_bg > .menu {
+  font-size: 0;
+}
+.navigation > .nav_bg > .search {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.navigation > .nav_bg > .search > a {
+  /* background-color: rgb(93, 93, 236); */
+  /* border-radius: 50%; */
+  /* padding: 20px; */
+  /* height: 50px; */
+  text-decoration: none;
+  color: rgb(93, 93, 236);
+  border: none;
+  cursor: pointer;
+  margin: 15px 0 0 20px;
+  font-size: 20px;
+  align-items: center;
+}
+.navigation > .nav_bg > .search > input {
+  border-radius: 10px;
+  border: 1px rgb(93, 93, 236) solid;
+  font-size: 15px;
+}
+.navigation > .nav_bg > .menu > a {
+  text-decoration: none;
+  margin: 40px o;
+  padding: 27px;
+  font-size: initial;
+  line-height: 70px;
+}
+.navigation > .nav_bg > .menu > #home {
+  background-color: rgb(93, 93, 236);
+  color: white;
+}
+.navigation > .nav_bg > .menu > #breed {
+  background-color: rgb(93, 93, 236);
+  color: white;
+}
+.navigation > .nav_bg > .menu > #add_data {
+  background-color: rgb(93, 93, 236);
+  color: white;
+}
+.navigation > .nav_bg > .menu > #user {
+  background-color: rgb(93, 93, 236);
+  color: white;
+}
+/*---------------------------------------------- wrappage---------------------------- */
+#wrappage{
+  width: 1080px;
+
+}
+.wrappage {
+  margin: 0 auto;
+  width: 1080px;
+  margin-bottom: 30px;
+  /* background-color: rgb(216, 178, 178); */
+  overflow: hidden;
+  box-shadow: 0 1px 3px black;
+  border-radius: 10px;
+}
+
+.wrappage #child_page{
+  width:100% ;
+  height: 40px;
+  padding: 0px;
+}
+.wrappage #btn_back {
+  /* margin: 20px 40px; */
+}
+.wrappage > div > .pic_breed > div {
+  width: 19%;
+  height: 230px;
+  /* background: gray; */
+  float: left;
+  overflow: hidden;
+  margin: 27px;
+  box-shadow: 0 1px 5px grey;
+}
+.wrappage > div .pic_breed > div a {
+  text-decoration: none;
+}
+.wrappage >div .pic_breed > div a > div {
+  width: 100%;
+  height: 80%;
+}
+.wrappage >div .pic_breed > div a > div img {
+  width: 100%;
+}
+.wrappage > div .pic_breed > div a > p {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  /* background-color: red; */
+  font-size: 20px;
+}
+.wrappage > div > form {
+  /* height: 440px; */
+}
+.wrappage #table_data table {
+  float: left;
+  margin-bottom: 50px;
+  height: 350px;
+}
+.wrappage #table_data {
+  /* box-shadow: 0px 0px 5px grey; */
+  height: 450px;
+}
+.wrappage #table_data #image {
+  /* background-color: red; */
+  width: 400px;
+  /* height: 300px; */
+  float: right;
+
+  /* display: flex; 
+  justify-content: center;
+  align-items: center; */
+  /* margin-top:100px; */
+}
+.wrappage #table_data #image > div {
+  width: 100%;
+  height: 100%;
+  /* display: flex; 
+  justify-content: center;
+  align-items: center; */
+}
+.wrappage #table_data #image > #image_slider{
+  display: flex; 
+  height: 270px;
+  justify-content: center;
+  align-items: top;
+}
+.wrappage #table_data #image > div img {
+  box-shadow: 0px 3px 5px #b2babb;
+  width: 200px;
+  border-radius: 5px;
+  height: auto;
+}
+.wrappage #table_data > table {
+  font-family: Khmer OS Battambang;
+  /* background-color: red; */
+  width: 510px;
+}
+.wrappage #table_data > .button-container {
+  display: flex;
+  position: relative;
+  margin: 90px auto 0px;
+  /* width: 300px;
+    height: 300px; */
+  background-color: red;
+}
+.wrappage #table_data > image {
+  display: none;
+}
+.wrappage #add_data {
+  height: 700px;
+}
+/* .wrappage #add_data #myModal{
+    width: 40px;
+    height: 20px;
+} */
+/*--------------------------------------------- footer---------------------------- */
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(93, 93, 236);
+  font-family: Khmer OS siemreap;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+}
+#test {
+  width: 100px;
+  height: 100px;
+}
+/* -------------------------main page -----------------*/
+.wrappage {
+  width: 1080px;
+}
+.wrappage > div {
+  padding: 50px;
+  font-family: Khmer OS Battambang;
+}
+.wrappage > div > .image {
+  width: 30%;
+  height: 400px;
+  float: right;
+  /* background-color: red; */
+}
+.wrappage > div > .image > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25%;
+  background-color: brown;
+  width: 180px;
+  height: 190px;
+}
+.wrappage > div > h1 {
+  margin-bottom: 20px;
+}
+.wrappage > div > form {
+  float: left;
+  width: 100%;
+
+}
+.wrappage > div > form table {
+  width: 100%;
+}
+.wrappage > div > form > table tr :first-child {
+  width: 100px;
+}
+.wrappage > div > form > table tr > td {
+  width: 300px;
+  padding: 3px;
+}
+.wrappage > div > form > table tr > td > input {
+  width: 300px;
+}
+
+
+* {
+  /* margin: 0;
+    margin: 0;
+    box-sizing: border-box; */
+}
+/*---------------------------------------------- header---------------------------- */
+#header_bg {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(0 105 0);
+}
+header {
+  /* background-color: rgb(3, 183, 3); */
+  width: 1080px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header > .header_l > a img {
+  width: 100px;
+  margin: 25px 0px 25px 25px;
+}
+header > .header_l > div {
+  float: right;
+  width: 70%;
+  height: 100%;
+  margin: 0;
+}
+header > .header_l > div h2 {
+  color: rgb(255, 255, 255);
+  float: right;
+  font-size: 20px;
+  margin: 46px 150px 46px 0px;
+  font-family: "Kh Koulen", sans-serif;
+  font-weight: normal;
+
+  /* font-family: 'Koulen', sans-serif; */
+}
+header > .header_l > div h2 span {
+  font-size: 11px;
+  font-weight: normal;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+header > .header_l {
+  width: 50%;
+  height: 100%;
+  font-family: "Kh Koulen", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > .header_r {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header > .header_r > p {
+  font-size: 29px;
+  text-align: center;
+  margin: 60px 0;
+  color: white;
+}
+/*---------------------------------------------- navigation---------------------------- */
+.navigation {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(198, 236, 203);
+  overflow: hidden;
+}
+.navigation > .nav_bg {
+  background-color: rgb(198, 236, 203);
+  width: 1080px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation > .nav_bg > .menu {
+  font-size: 0;
+}
+.navigation > .nav_bg > .search {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.navigation > .nav_bg > .search > a {
+  /* background-color: rgb(93, 93, 236); */
+  /* border-radius: 50%; */
+  /* padding: 20px; */
+  /* height: 50px; */
+  text-decoration: none;
+  color: rgb(93, 93, 236);
+  border: none;
+  cursor: pointer;
+  margin: 15px 0 0 20px;
+  font-size: 20px;
+  align-items: center;
+}
+.navigation > .nav_bg > .search > input {
+  border-radius: 10px;
+  border: 1px rgb(93, 93, 236) solid;
+  font-size: 15px;
+}
+
+.navigation > .nav_bg > .menu > #home {
+  background-color: rgb(93, 93, 236);
+  color: white;
+}
+.navigation > .nav_bg > .menu > #breed {
+  background-color: rgb(93, 93, 236);
+  color: white;
+}
+.navigation > .nav_bg > .menu > #add_data {
+  background-color: rgb(93, 93, 236);
+  color: white;
+}
+.navigation > .nav_bg > .menu > #user {
+  background-color: rgb(93, 93, 236);
+  color: white;
+}
+/*---------------------------------------------- wrappage---------------------------- */
+#wrappage{
+  width: 1080px;
+
+}
+.wrappage {
+  margin: 0 auto;
+  width: 1080px;
+  margin-bottom: 30px;
+  /* background-color: rgb(216, 178, 178); */
+  overflow: hidden;
+  box-shadow: 0 1px 3px black;
+  border-radius: 10px;
+}
+.wrappage #parent_page{
+  width: 1080px;
+  font-family: "Poppins", Khmer OS Battambang, sans-serif;
+  font-weight: 500;
+  padding: 0px;
+}
+.wrappage #child_page{
+  width:100% ;
+  height: 40px;
+  padding: 0px;
+}
+.wrappage #btn_back {
+  /* margin: 20px 40px; */
+  width: 100px;
+}
+.wrappage > div > .pic_breed > div {
+  width: 19%;
+  height: 230px;
+  /* background: gray; */
+  float: left;
+  overflow: hidden;
+  margin: 27px;
+  box-shadow: 0 1px 5px grey;
+  border-radius: 5px;
+}
+.wrappage > div .pic_breed > div a {
+  text-decoration: none;
+}
+.wrappage >div .pic_breed > div a > div {
+  width: 100%;
+  height: 80%;
+}
+.wrappage >div .pic_breed > div a > div img {
+  width: 100%;
+}
+.wrappage > div .pic_breed > div a > p {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  /* background-color: red; */
+  font-size: 16px;
+}
+.wrappage >.tab-content{
+  padding: 0;
+}
+#filters {
+  width: 955px;
+  /* background-color: red; */
+  height: 60px;
+}
+#datafilter{
+  padding: 0px 50px 0px;
+}
+.wrappage > div > form {
+  /* height: 440px; */
+}
+.wrappage #table_data table {
+  float: left;
+  margin-bottom: 50px;
+  height: 350px;
+}
+.wrappage #table_data {
+  /* box-shadow: 0px 0px 5px grey; */
+  height: 450px;
+}
+.wrappage #table_data #image {
+  /* background-color: red; */
+  width: 400px;
+  /* height: 300px; */
+  float: right;
+
+  /* display: flex; 
+  justify-content: center;
+  align-items: center; */
+  /* margin-top:100px; */
+}
+.wrappage #table_data #image > div p  {
+  line-height: 100%;
+  margin: 12px 0 0 0;
+/* 
+  display: flex; 
+  justify-content: center;
+  align-items: center; */
+}
+.wrappage #table_data #image > div > #slide_image {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.wrappage #table_data #image > div > div>  #numbering_image{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.wrappage #table_data #image > div img {
+  box-shadow: 0px 3px 5px #b2babb;
+  width: 200px;
+  border-radius: 5px;
+  height: auto;
+}
+.wrappage #table_data > table {
+  font-family: Khmer OS Battambang;
+  /* background-color: red; */
+  width: 580px;
+}
+
+.wrappage #table_data > table tr:nth-child(even) {
+  background-color: #f2f2f2}
+.wrappage #table_data > .button-container {
+  display: flex;
+  position: relative;
+  margin: 90px auto 0px;
+  /* width: 300px;
+    height: 300px; */
+  background-color: red;
+}
+.wrappage #table_data > image {
+  display: none;
+}
+.wrappage #add_data {
+  height: 700px;
+}
+/* .wrappage #add_data #myModal{
+    width: 40px;
+    height: 20px;
+} */
+/*--------------------------------------------- footer---------------------------- */
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(93, 93, 236);
+  font-family: Khmer OS Battambang;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 20px;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+}
+#test {
+  width: 100px;
+  height: 100px;
+}
+/* -------------------------main page -----------------*/
+#filter_card{
+  font-family: "Poppins","Khmer OS Battambang", sans-serif;
+  font-weight: 100;
+}
+.wrappage {
+  width: 1080px;
+  font-family: "Poppins","Khmer OS Battambang", sans-serif;
+  font-weight: 100;
+}
+.wrappage > div > .image {
+  width: 30%;
+  height: 400px;
+  float: right;
+  /* background-color: red; */
+}
+.wrappage > div > .image > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25%;
+  background-color: brown;
+  width: 180px;
+  height: 190px;
+}
+.wrappage > div > h1 {
+  margin-bottom: 20px;
+}
+.wrappage > div > form {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+/* Add this CSS to style the active link */
+/* Style for the anchor tag */
+.menu a:hover{
+  background-color:rgb(139 170 144 /50% );
+  color :white;
+}
+.menu a.active {
+  background-color: #0d6efd;
+  color :white; /* Change this to the desired background color */
+}
+
+.wrappage > div > form table {
+  width: 100%;
+}
+.wrappage > div > form > table tr :first-child {
+  width: 200px;
+}
+.wrappage > div > form > #table_add_user  tr:nth-child(even) {
+  /* background-color: #f2f2f2; */
+}
+.wrappage > div > form > table tr > td {
+  width: 300px;
+  padding: 3px;
+}
+.wrappage > div > form > table tr > td > input {
+  width: 300px;
+}
+.wrappage > div > form >  #image_edit{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+    margin: 0px 0px 40px;
+}
+.wrappage > div > form >  #image_edit .mySlides{
+  width: 200px;
+  border: 1px solid grey ;
+  border-radius: 10px
+}
+.wrappage > div > form >  #image_edit .mySlides img {
+  width: 100%;
+  border-radius: 10px
+}
+.wrappage > div > form > #imagePreview {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 100%;
+  /* justify-content: space-between; */
+
+
+}
+.wrappage > div > form > #imagePreview .preview-image-container {
+width: 200px ;
+height: 250px ;
+}
+.wrappage > div > form > #imagePreview .preview-image-container img{
+  width: 100%;
+  height: 150px;
+  border-radius: 10px
+}
+
+.wrappage > div > form > table tr td > #imagePreview > img {
+  width: 200px;
+  padding: 20px;
+
+}
+.preview-image-container {
+  border: 1px solid grey ;
+  border-radius: 10px;
+}
+
+#dropdown button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#dropdown button img{
+ width: 100px;
+ /* width: 150%;*/
+   
+    /* height: 100%; */
+    border-radius: 50%;
+}
+#border_image{
+  border-radius: 10px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+}
+/* --------------responsive------------ */
+
+/* Responsive styles */
+
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+
+  #header_bg {
+    width: 250%;
+      height: 120px;
+  }
+
+  header {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+  }
+
+  header > .header_l {
+      width: 100%;
+  }
+
+  header > .header_l > a img {
+      width: 80px;
+      margin: 15px 0 15px 15px;
+  }
+
+  header > .header_l > div {
+      width: 100%;
+      text-align: center;
+  }
+
+  header > .header_l > div h2 {
+      margin: 10px 0;
+  }
+
+  header > .header_r {
+      width: 100%;
+      text-align: center;
+  }
+
+  header > .header_r > p {
+      margin: 20px 0;
+      font-size: 20px;
+  }
+
+  .navigation {
+      height: auto;
+  }
+
+  .navigation > .nav_bg {
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navigation > .nav_bg > .search {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .navigation > .nav_bg > .search > a {
+      margin: 10px 0;
+  }
+
+  .navigation > .nav_bg > .menu {
+      margin: 10px 0;
+  }
+
+  .navigation > .nav_bg > .menu > a {
+      margin: 10px 0;
+      padding: 15px;
+  }
+
+  .wrappage,
+  .wrappage #parent_page,
+  .wrappage #child_page,
+  .wrappage > div > .pic_breed > div,
+  .wrappage > div .pic_breed > div a,
+  .wrappage > div .pic_breed > div a > div,
+  .wrappage > div .pic_breed > div a > div img,
+  .wrappage > div .pic_breed > div a > p,
+  .wrappage > div > form,
+  .wrappage #table_data table,
+  .wrappage #table_data,
+  .wrappage #table_data #image,
+  .wrappage #table_data #image > div,
+  .wrappage #table_data #image > div > #slide_image,
+  .wrappage #table_data #image > div img,
+  .wrappage #table_data > table,
+  .wrappage #table_data > .button-container,
+  .wrappage #table_data > image,
+  .wrappage #add_data {
+      width: 100%;
+  }
+
+  .wrappage > div > .image {
+      width: 100%;
+      float: none;
+  }
+
+  .wrappage > div > .image > div {
+      width: 100%;
+      margin: 0;
+  }
+
+  .wrappage > div > form {
+      float: none;
+  }
+
+  .wrappage > div > form table {
+      width: 100%;
+  }
+
+  .wrappage > div > form > table tr :first-child,
+  .wrappage > div > form > table tr > td {
+      width: 100%;
+  }
+
+  .wrappage > div > form > table tr > td > input {
+      width: 100%;
+  }
+
+  .footer {
+      height: auto;
+  }
+
+
+}
+/* Responsive styles for header */
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .header_l {
+      text-align: center;
+  }
+
+  .header_l a img {
+      margin: 10px auto;
+  }
+}
+/* Responsive styles for header */
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 1000px) {
+  .header_l {
+
+      text-align: center;
+  }
+  .wrappage {
+    width: 908px;
+  }
+  .wrappage #list_user {
+    /* padding: 0px; */
+  }
+  .wrappage >div {
+    /* padding: 0px; */
+  }
+
+  .header_l a img {
+      margin: 10px auto;
+  }
+}
+@media print {
+  body {
+      background-color: rebeccapurple;
+  }
+}
+/* ... (other media queries for larger screens if needed) */
+
+#show_hide >#show_password{
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: 10px
+  
+}
+#show_hide >#show_password input{
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  width: 85%;
+}
+#show_hide >#show_password button{
+  background: none;
+  border: none;
+  margin-right: 12px;
+}
+#slide_image{
+  height: 180px;
+  /* background-color: red; */
+}
+#slide_image img{
+  height: 150px;
+}
+@media only screen and (max-width: 1130px){
+  .wrappage{
+     /* padding: 0px; */
+     max-width: 1000px;
+     /* margin: 0; */
+  }
+  
+  
+  .wrappage #parent_page {
+       max-width:  1012px;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .container{
+    max-width: 1010px;
+}
+
+.wrappage > div > .pic_breed  {
+  max-width: 1010px;
+}
+}
+@media only screen and (max-width: 1034px){
+
+}

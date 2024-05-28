@@ -1,0 +1,92 @@
+.wrappage #add_user {
+    padding: 10px 50px 50px;
+    height:50px;
+    /* background-color: red; */
+}
+.wrappage h2{
+
+    padding: 20px 50px 0px;
+}
+.wrappage form {
+    width:  300px;
+    /* background-color: red; */
+}
+.wrappage #list_user{
+   padding: 0px 50px 30px;
+  
+}
+.wrappage #list_user table{
+    height: 10px;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    font-family: "Poppins", Khmer OS Battambang, sans-serif;
+    font-weight: 500;
+
+}
+
+.wrappage #list_user > table tr:nth-child(even) {background-color: #f2f2f2}
+.wrappage #list_user table #table_head{
+    text-align: center;
+}
+.wrappage #list_user table th{
+    border: 1px solid #aaaaaa;
+}
+.wrappage #list_user table td{
+    border: 1px solid #aaaaaa;
+    padding:0px 5px;
+    height: 50px;
+}
+.wrappage #list_user table th{
+    height: 40px;
+}
+.wrappage #list_user form #image_profile{
+    width: 30%;
+}
+.wrappage #list_user form #image_profile1{
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrappage #list_user form #image_profile div img{
+    width: 200px;
+    border-radius: 10px;
+}
+/* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+  @media only screen and (max-width: 768px) {
+    .wrappage #list_user {
+        padding: 0px;
+      }
+      .wrappage div {
+        padding: 0px;
+      }
+
+  }
+  @media print {
+    body {
+        background-color: rebeccapurple;
+    }
+  } 
+@media only screen and (max-width: 1000px){
+.wrappage #list_user {
+    padding: 8px;
+}
+.navigation > .nav_bg {
+    width: 900px;
+}
+}
+@media only screen and (max-width: 1130px){
+    .wrappage{
+       /* padding: 0px; */
+       max-width: 1000px;
+       /* margin: 0; */
+    }
+    
+    
+    .wrappage #parent_page {
+         width: 1080px;
+    }
+}
